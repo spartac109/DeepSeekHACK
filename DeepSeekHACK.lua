@@ -1071,8 +1071,8 @@ blurEffect.Parent = game:GetService("Lighting")
 
 -- Меню в стиле CS2 (улучшенный дизайн с Drag и Blur)
 local mainFrame = Instance.new("Frame")
-mainFrame.Size = UDim2.new(0, 600, 0, 500)
-mainFrame.Position = UDim2.new(0.5, -300, 0.5, -250)
+mainFrame.Size = UDim2.new(0, 480, 0, 360)
+mainFrame.Position = UDim2.new(0.5, -240, 0.5, -180)
 mainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15) -- Очень темный фон как в CS2
 mainFrame.BackgroundTransparency = 0.05
 mainFrame.BorderSizePixel = 1
